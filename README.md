@@ -66,9 +66,9 @@ ptlibs
 ## Version History
 ```
 1.0.0
-    - Release ready
+    - Better exception handling
+    - Updated for ptlibs v1.0.0
 0.0.8
-    - Updated for ptlibs v0.1.2
     - Code refactorization and bug fixes
     - Output when printing records now aligns correctly
     - Added additional arg checks for correct business logic
