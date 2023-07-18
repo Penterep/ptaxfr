@@ -2,8 +2,6 @@
 
 
 ## PTAXFR
-![PyPI - License](https://img.shields.io/pypi/l/ptsecurixt?style=for-the-badge)
-
 > DNS zone transfer testing tool
 
 ptaxfr is a tool that tests domains for DNS zone transfer. <br />
