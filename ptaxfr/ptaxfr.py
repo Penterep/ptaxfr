@@ -109,7 +109,7 @@ class PtAxfr:
                 printlock_instance.add_string_to_output(ptprinthelper.out_ifnot(f"Vulnerable: False", "NOTVULN", self.use_json or self.print_vulnerable_domains), silent=self.silent, end="\n")
             except Exception as e:
                 nameserver_list[-1].update({"vulnerable": False})
-                printlock_instance.add_string_to_output(ptprinthelper.out_ifnot(f"{re.search(r'.*,(.*),', str(sys.exc_info())).group(1).strip()} error", "ERROR", self.use_json or self.print_vulnerable_domains), silent=self.silent)
+                #printlock_instance.add_string_to_output(ptprinthelper.out_ifnot(f"{re.search(r'.*,(.*),', str(sys.exc_info())).group(1).strip()} error", "ERROR", self.use_json or self.print_vulnerable_domains), silent=self.silent)
                 printlock_instance.add_string_to_output(ptprinthelper.out_ifnot(f"Vulnerable: False", "NOTVULN", self.use_json or self.print_vulnerable_domains), silent=self.silent, end="\n")
 
 
